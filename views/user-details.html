@@ -1,0 +1,11 @@
+<div class="photo_grid">
+<h4>Photos of {{userName}}</h4>
+    <ul>
+        <li ng-repeat = "x in userImages">
+        <figure>
+            <img src="{{x.image_url}}" class="photo_cell"/>
+            <figcaption><p>{{x.title}}</p></figcaption>
+        </li>
+        </figure>
+    </ul> 
+</div>

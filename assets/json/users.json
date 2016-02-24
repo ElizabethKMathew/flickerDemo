@@ -1,0 +1,41 @@
+{"users":[
+				{"uid":0,
+				"uname":"anna",
+				"profile_pic":"assets/img/profile1.jpeg",
+				"images":[{
+						"id":0,
+						"title":"Bird",
+						"location":"",
+						"image_url":"assets/img/bird1.jpg"},
+						{
+						"id":1,
+						"title":"Snowfall, Himalayas",
+						"location":"",
+						"image_url":"assets/img/snow.jpg"},
+						{
+						"id":2,
+						"title":"Silent valley national park, India",
+						"location":"",
+						"image_url":"assets/img/silent_valley.jpg"}]
+
+					
+
+				},
+				{"uid":1,
+				"uname":"sam",
+				"profile_pic":"assets/img/default-avatar.gif",
+				"images":[{
+						"id":0,
+						"title":"Peacock",
+						"location":"",
+						"image_url":"assets/img/peacock.jpg"},
+						{
+						"id":1,
+						"title":"Bird",
+						"location":"",
+						"image_url":"assets/img/bird1.jpg"}
+					]
+
+}]
+}
+				

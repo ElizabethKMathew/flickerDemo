@@ -1,0 +1,69 @@
+.sidebar {
+    height: 600px;
+}
+
+#side_heading {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+#icon {
+    font-size: 20px;
+}
+
+.sidebar li {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+figure {
+    position: relative;
+    text-align: center;
+}
+ figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    opacity: 0;
+}
+
+  figcaption p {
+    position: relative;
+
+
+}
+
+ .users_thumb li {
+    display: inline-block;
+}
+
+ .users_thumb li:hover figcaption {
+    opacity: 1;
+}
+.profile_pic {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+
+}
+.photo_grid li {
+    display: inline-block;
+}
+
+.photo_grid li:hover figcaption {
+    opacity: 1;
+}
+
+
+
+.photo_cell{
+	width: 320px;
+    height: 180px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
