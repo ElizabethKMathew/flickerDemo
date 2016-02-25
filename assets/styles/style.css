@@ -50,18 +50,15 @@ figure {
 .photo_grid li {
     display: inline-block;
 }
-
-.photo_grid li:hover figcaption {
-    opacity: 1;
-}
-
-
-
 .photo_cell{
 	width: 320px;
     height: 180px;
     margin-right: 10px;
     margin-bottom: 20px;
+}
+#rate_pic{
+    float: right;
+    padding:10px;
 }
 
 ul {

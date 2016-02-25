@@ -1,28 +1,38 @@
 {"users":[
 				{"uid":0,
-				"uname":"anna",
+				"uname":"Anna",
 				"profile_pic":"assets/img/profile1.jpeg",
 				"images":[{
 						"id":0,
-						"title":"Bird",
+						"title":"Beautiful bird",
 						"location":"",
 						"image_url":"assets/img/bird1.jpg"},
 						{
 						"id":1,
-						"title":"Snowfall, Himalayas",
-						"location":"",
+						"title":"Snowfall",
+						"location":"Kulu-manali, India",
 						"image_url":"assets/img/snow.jpg"},
 						{
 						"id":2,
 						"title":"Silent valley national park, India",
 						"location":"",
-						"image_url":"assets/img/silent_valley.jpg"}]
+						"image_url":"assets/img/silent_valley.jpg"},
+						{
+						"id":3,
+						"title":"Eiffel Tower",
+						"location":"Paris, France",
+						"image_url":"assets/img/paris2.jpg"},
+						{
+						"id":4,
+						"title":"Himalayan mountains",
+						"location":"",
+						"image_url":"assets/img/himalaya.jpg"}]
 
 					
 
 				},
 				{"uid":1,
-				"uname":"sam",
+				"uname":"Sam",
 				"profile_pic":"assets/img/default-avatar.gif",
 				"images":[{
 						"id":0,
@@ -33,9 +43,37 @@
 						"id":1,
 						"title":"Bird",
 						"location":"",
-						"image_url":"assets/img/bird1.jpg"}
-					]
+						"image_url":"assets/img/bird1.jpg"}]
 
+			},
+			{"uid":2,
+				"uname":"Susan",
+				"profile_pic":"assets/img/default-avatar.gif",
+				"images":[{
+						"id":0,
+						"title":"Paris evening",
+						"location":"",
+						"image_url":"assets/img/paris.jpg"},
+						{
+						"id":1,
+						"title":"Himalayan mountains",
+						"location":"",
+						"image_url":"assets/img/himalaya.jpg"}]
+
+		},
+		{"uid":3,
+				"uname":"Paul",
+				"profile_pic":"assets/img/default-avatar.gif",
+				"images":[{
+						"id":0,
+						"title":"Kerala",
+						"location":"",
+						"image_url":"assets/img/kerala.jpg"},
+						{
+						"id":1,
+						"title":"",
+						"location":"",
+						"image_url":"assets/img/amazon-forest.jpg"}]
 }]
 }
 				

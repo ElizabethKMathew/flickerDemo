@@ -7,9 +7,12 @@ app.config(function($routeProvider)
                 }).when('/user',{
                     templateUrl: '../views/users.html',
                     controller: 'userController'
-                }).when('/user/:uid', {
+                }).when('/user/:uid',{
                     templateUrl: '../views/user-details.html',
-                    controller: 'userController'
+                    controller: 'userDetailsController'
+                }).when('/user/:uid/image/:id',{
+                    templateUrl: '../views/img-details.html',
+                    controller: 'userDetailsController'
                 });
                 
           });
