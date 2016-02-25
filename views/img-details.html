@@ -1,0 +1,39 @@
+<div>
+    <div id = "rate_pic">
+        <span>
+            Rate this pic:
+        </span>
+        <select>
+            <option value="">
+            </option>
+            <option value="High">
+                High
+            </option>
+            <option value="Medium">
+                Medium
+            </option>
+            <option value="Low">
+                Low
+            </option>
+        </select>
+    </div>
+    <div class="image_details">
+        <img src="{{selectedImage.image_url}}" class="photo"/>
+        <div class="image_description">
+            <h4>
+                Photo details
+            </h4>
+            <p>
+                Title: {{selectedImage.title}}
+            </p>
+            <p>
+                Taken by: {{userName}}
+            </p>
+            <p>
+                Location: {{selectedImage.location}}
+            </p>
+
+        </div>
+    </div>
+</div>
+
