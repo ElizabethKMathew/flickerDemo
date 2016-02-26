@@ -8,7 +8,7 @@ app.controller('userDetailsController', ['$scope', '$http', '$stateParams', 'jso
         $scope.userName = $scope.userData[$scope.userId].uname;
         $scope.userImages = $scope.userData[$scope.userId].images;
         $scope.selectedImage = $scope.userImages[$scope.imageId];
-       
+             
     });
 
 }]);
