@@ -1,0 +1,21 @@
+<!-- Displays list of users -->
+<div>
+    <div class="users_thumb">
+        <ul>
+            <li ng-repeat = "x in userData">
+                <figure>
+                   <a ui-sref = "users({ uid : x.uid })">
+                        <img src="{{x.profile_pic}}" class="profile_pic"/>
+                        <figcaption>
+                            <p>
+                                Get photos posted by {{x.uname}}
+                            </p>
+                        </figcaption>
+                 </a>
+                </figure>
+            </li>
+        </ul>
+    </div>
+</div>
+
+

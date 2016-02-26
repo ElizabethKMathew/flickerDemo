@@ -1,0 +1,17 @@
+<!-- Displays photos posted by a particular user -->
+<div class="photo_grid">
+    <h4>
+        Photos posted by {{userName}}
+    </h4>
+    <ul>
+        <li ng-repeat = "x in userImages">
+            <figure>
+                <a ui-sref="images({uid:userId, id : x.id}) ">
+                    <img src="{{x.image_url}}" class="photo_cell"/>
+                </a>
+            </figure>
+        </li>
+    </ul>
+</div>
+
+
