@@ -1,18 +1,39 @@
-var app = angular.module('flickerApp', ['ngRoute']);
-app.config(function($routeProvider) 
+var app = angular.module('flickerApp', ['ui.router']);
+app.config(function($stateProvider, $urlRouterProvider) 
             {
-                $routeProvider.when('/dashboard', {
+            	$urlRouterProvider.otherwise('/dashboard')
+                $stateProvider.state('dashboard', {
+                	url:'/dashboard',
                     templateUrl: 'views/dashboard.html',
                     controller: 'dashboardController'
-                }).when('/user',{
+                }).state('user',{
+                	url:'/user',
                     templateUrl: 'views/users.html',
+                    resolve:{
+                    	jsonFetchService:'jsonFetchService'
+                    },
                     controller: 'userController'
-                }).when('/user/:uid',{
+
+                }).state('users',{
+                	url:'/user/:uid',
                     templateUrl: 'views/user-details.html',
+                    resolve:{
+                    	jsonFetchService:'jsonFetchService'
+                    },
                     controller: 'userDetailsController'
-                }).when('/user/:uid/image/:id',{
+                }).state('images',{
+                	url:'/user/:uid/image/:id',
                     templateUrl: 'views/img-details.html',
+                    resolve:{
+                    	jsonFetchService:'jsonFetchService'
+                    },
                     controller: 'userDetailsController'
-                });
+                })
+;
                 
           });
+
+
+
+
+  

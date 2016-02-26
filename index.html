@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="assets/styles/style.css"/>
         <script src="assets/lib/angular.js"> </script>
           <script src="assets/lib/angular-animate.js"> </script>
-        <script src="assets/lib/angular-route.js"></script>
+        <script src="assets/lib/angular-ui-router.js"></script>
         
     </head>
     <body>
@@ -42,27 +42,27 @@
         <div class="sidebar">
             <ul>
                 <li>
-                    <a href="#dashboard">
+                    <a ui-sref="dashboard">
                         <i class="fa fa-home" id="icon"></i>
                         <span id="side_heading"> Dashboard</span>
                       
                     </a>
                 </li>
                 <li>
-                    <a href="#user">
+                    <a ui-sref="user">
                         <i class="fa fa-user" id="icon"></i>
                         <span id="side_heading">Users</span>
                     </a>
                 </li>
                  <li>
-                    <a href="#">
+                    <a ui-sref="#">
                         <i class="fa fa-user" id="icon"></i>
                         <span id="side_heading">App Garden</span>
                     </a>
                 </li>
                 
                 <li>
-                    <a href="#">
+                    <a ui-sref="#">
                         <i class="fa fa-file-text" id="icon"></i>
                         <span id="side_heading">Blog</span>
                     </a>
@@ -70,7 +70,7 @@
             </ul>
         </div>
         </div>
-        <div ng-view></div>
+        <div ui-view></div>
         <script src="app/app.js"></script>
         <script src="app/controllers/dashboardController.js"></script>
         <script src="app/controllers/userController.js"></script>

@@ -1,5 +1,5 @@
-app.service('jsonFetchService',['$http','$routeParams',function($http,$routeParams){
-	var params = $routeParams;
+app.service('jsonFetchService',['$http','$stateParams',function($http,$stateParams){
+	var params = $stateParams;
 	var fetchAllData = function(){
 	var data = $http.get("assets/json/users.json");
 	return data;

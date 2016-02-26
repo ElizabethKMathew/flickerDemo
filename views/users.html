@@ -4,7 +4,7 @@
         <ul>
             <li ng-repeat = "x in userData">
                 <figure>
-                   <a ng-href="#user/{{x.uid}}">
+                   <a ui-sref = "users({ uid : x.uid })">
                         <img src="{{x.profile_pic}}" class="profile_pic"/>
                         <figcaption>
                             <p>
@@ -16,5 +16,6 @@
             </li>
         </ul>
     </div>
-
 </div>
+
+
